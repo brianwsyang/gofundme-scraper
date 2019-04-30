@@ -23,9 +23,6 @@ import re
 # Paradise Fire
 url = 'https://www.gofundme.com/mvc.php?route=homepage_norma/search&term=paradise%20fire'
 
-# wwf pandas
-# url = 'https://www.gofundme.com/mvc.php?route=homepage_norma/search&term=world%20wildlife%20fund%20pandas'
-
 driver = webdriver.Chrome('/Users/goomibear/Desktop/chromedriver')
 driver.get(url)
 
